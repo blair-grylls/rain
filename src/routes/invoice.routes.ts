@@ -1,6 +1,6 @@
 import { Router } from "express";
 import { getInvoices } from "../controllers/invoice.controller";
-import { editInvoiceByInvoiceId } from "../services/invoice.service";
+import { editInvoiceByInvoiceId } from "../controllers/invoice.controller";
 
 const invoiceRouter = Router();
 
